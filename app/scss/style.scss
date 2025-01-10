@@ -59,6 +59,10 @@ body {
     
 }
 
+.sidebar.active { 
+    width: 250px;
+}
+
 .openbtn {
     font-size: 20px;
     cursor: pointer;
@@ -75,4 +79,9 @@ body {
 #mainHeader {
     transition: margin-left .5s;
     padding: 16px;
+    margin-left: 0px;
+
+    &.active { 
+        margin-left: 250px;
+    }
 }
